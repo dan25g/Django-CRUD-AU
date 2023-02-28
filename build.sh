@@ -2,6 +2,8 @@
 # exit on error
 set -o errexit
 
+
+pip install gitpython
 #poetry install
 pip install -r requirements.txt git
 
