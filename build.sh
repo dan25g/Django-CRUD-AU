@@ -3,8 +3,8 @@
 set -o errexit
 
 
-#pip install --upgrade pip
-pip install --upgrade setuptools
+pip install --upgrade pip
+#pip install --upgrade setuptools
 pip install gitpython
 pip install -r requirements.txt git
 
