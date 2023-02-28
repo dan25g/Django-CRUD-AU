@@ -3,9 +3,10 @@
 set -o errexit
 
 
-pip install --upgrade pip
+#pip install --upgrade pip
 pip install --upgrade setuptools
-pip install git+https://github.com/kivy/kivy
+#pip install git+https://github.com/kivy/kivy
+pip install git
 pip install gitpython
 pip install -r requirements.txt git
 
